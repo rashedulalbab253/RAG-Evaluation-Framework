@@ -1,0 +1,140 @@
+{
+  "experiment_name": "small_chunks",
+  "timestamp": "2026-06-11T05:28:01.086157",
+  "pipeline_config": {
+    "name": "small_chunks",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "retrieval_k": 4
+  },
+  "results": {
+    "aggregate": {
+      "faithfulness": 0.8570105595542369,
+      "answer_relevancy": 0.8052079619436046,
+      "context_recall": 0.6589563753675453
+    },
+    "per_question": [
+      {
+        "question": "What is artificial intelligence?",
+        "answer": "[Demo answer for 'What is artificial intelligenc...']",
+        "ground_truth": "[Demo ground truth for 'What is artificial intelligenc...']",
+        "faithfulness": 0.8779908081495367,
+        "answer_relevancy": 0.8714942907586929,
+        "context_recall": 0.7361285667770213
+      },
+      {
+        "question": "How does machine learning differ from traditional programming?",
+        "answer": "[Demo answer for 'How does machine learning diff...']",
+        "ground_truth": "[Demo ground truth for 'How does machine learning diff...']",
+        "faithfulness": 0.799841162782432,
+        "answer_relevancy": 0.7210891796801765,
+        "context_recall": 0.5654057106555176
+      },
+      {
+        "question": "What are neural networks?",
+        "answer": "[Demo answer for 'What are neural networks?...']",
+        "ground_truth": "[Demo ground truth for 'What are neural networks?...']",
+        "faithfulness": 0.8899461120381424,
+        "answer_relevancy": 0.7724872871902878,
+        "context_recall": 1
+      },
+      {
+        "question": "Explain the transformer architecture.",
+        "answer": "[Demo answer for 'Explain the transformer archit...']",
+        "ground_truth": "[Demo ground truth for 'Explain the transformer archit...']",
+        "faithfulness": 0.7844565966250805,
+        "answer_relevancy": 0.6791237940107626,
+        "context_recall": 0.7883252327845454
+      },
+      {
+        "question": "What is natural language processing?",
+        "answer": "[Demo answer for 'What is natural language proce...']",
+        "ground_truth": "[Demo ground truth for 'What is natural language proce...']",
+        "faithfulness": 0.9637479985074773,
+        "answer_relevancy": 0.8556261959923186,
+        "context_recall": 0.8004471222741812
+      },
+      {
+        "question": "How does deep learning work?",
+        "answer": "[Demo answer for 'How does deep learning work?...']",
+        "ground_truth": "[Demo ground truth for 'How does deep learning work?...']",
+        "faithfulness": 0.964107598195373,
+        "answer_relevancy": 0.7896569776382066,
+        "context_recall": 0.39386739203498417
+      },
+      {
+        "question": "What are large language models?",
+        "answer": "[Demo answer for 'What are large language models...']",
+        "ground_truth": "[Demo ground truth for 'What are large language models...']",
+        "faithfulness": 0.807433876134503,
+        "answer_relevancy": 0.9048185333048234,
+        "context_recall": 0.3901378869059081
+      },
+      {
+        "question": "What is retrieval-augmented generation?",
+        "answer": "[Demo answer for 'What is retrieval-augmented ge...']",
+        "ground_truth": "[Demo ground truth for 'What is retrieval-augmented ge...']",
+        "faithfulness": 0.8526825056629809,
+        "answer_relevancy": 0.8278561095276269,
+        "context_recall": 0.5931934103335393
+      },
+      {
+        "question": "How do attention mechanisms work?",
+        "answer": "[Demo answer for 'How do attention mechanisms wo...']",
+        "ground_truth": "[Demo ground truth for 'How do attention mechanisms wo...']",
+        "faithfulness": 0.9078905589094477,
+        "answer_relevancy": 0.8638857715679223,
+        "context_recall": 1
+      },
+      {
+        "question": "What is transfer learning?",
+        "answer": "[Demo answer for 'What is transfer learning?...']",
+        "ground_truth": "[Demo ground truth for 'What is transfer learning?...']",
+        "faithfulness": 0.8995974214218508,
+        "answer_relevancy": 0.7329656195492632,
+        "context_recall": 0.5488764333798746
+      },
+      {
+        "question": "Explain backpropagation.",
+        "answer": "[Demo answer for 'Explain backpropagation....']",
+        "ground_truth": "[Demo ground truth for 'Explain backpropagation....']",
+        "faithfulness": 0.7834735119006394,
+        "answer_relevancy": 0.9047500915797403,
+        "context_recall": 0.5479700897335339
+      },
+      {
+        "question": "What is a convolutional neural network?",
+        "answer": "[Demo answer for 'What is a convolutional neural...']",
+        "ground_truth": "[Demo ground truth for 'What is a convolutional neural...']",
+        "faithfulness": 0.8443791381039522,
+        "answer_relevancy": 0.8824232881218643,
+        "context_recall": 0.5197766616827468
+      },
+      {
+        "question": "How does BERT work?",
+        "answer": "[Demo answer for 'How does BERT work?...']",
+        "ground_truth": "[Demo ground truth for 'How does BERT work?...']",
+        "faithfulness": 0.8265073629105825,
+        "answer_relevancy": 0.5974585107835693,
+        "context_recall": 0.45515384857303165
+      },
+      {
+        "question": "What is GPT?",
+        "answer": "[Demo answer for 'What is GPT?...']",
+        "ground_truth": "[Demo ground truth for 'What is GPT?...']",
+        "faithfulness": 0.804581087024652,
+        "answer_relevancy": 0.845733708736834,
+        "context_recall": 0.8648287890397935
+      },
+      {
+        "question": "Explain the concept of embeddings.",
+        "answer": "[Demo answer for 'Explain the concept of embeddi...']",
+        "ground_truth": "[Demo ground truth for 'Explain the concept of embeddi...']",
+        "faithfulness": 0.848522654946903,
+        "answer_relevancy": 0.8287500707119784,
+        "context_recall": 0.6802344863385018
+      }
+    ],
+    "sample_count": 15
+  }
+}
