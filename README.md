@@ -31,6 +31,18 @@ python app.py
 # Open http://localhost:5050
 ```
 
+## System Architecture
+
+```mermaid
+graph TD
+    A[data_loader.py: Load & Chunk Docs] --> B[rag_pipeline.py: LangChain & ChromaDB Indexing]
+    B --> C[testset_generator.py: RAGAS / LLM QA Generator]
+    C --> D[evaluator.py: RAGAS Evaluation Engine]
+    D --> E[experiment_tracker.py: Compare Runs & Analysis]
+    E --> F[app.py: Flask Server & Web API]
+    F --> G[static & templates: Premium Dashboard UI]
+```
+
 ## Project Structure
 
 ```
