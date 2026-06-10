@@ -85,11 +85,7 @@ The key insight: changing one parameter often improves one metric while hurting 
 | Higher k | ↓ More noise | → Neutral | ↑ More docs found |
 | Lower k | ↑ Less noise | → Neutral | ↓ Fewer docs |
 
-## Resume Bullet Points (Copy-Paste Ready)
 
-- **Designed and implemented an automated RAG evaluation suite** using the **RAGAS** framework, scoring pipeline performance across three key dimensions: Faithfulness (hallucination detection), Answer Relevancy, and Context Recall.
-- **Developed a synthetic QA dataset generator** that automatically constructs question-answer test sets from raw document corpora (Wikipedia) utilizing RAGAS Knowledge Graph evolutions, eliminating the need for manually labeled evaluation data.
-- **Built an interactive dashboard and experiment tracker** (Flask, vanilla JS) to evaluate parameter sweeps (chunk size, retrieval depth $k$, prompts) and analyze performance trade-offs (e.g., verifying that smaller chunks optimized Faithfulness to 0.86 but decreased Context Recall to 0.66).
 
 ## License
 
